@@ -8,7 +8,30 @@ using namespace std;
 
 int main()
 {
-	
+/********string构造***********/
+	string s1;//默认初始化，空串
+	string s2(s1);//拷贝初始化
+	string s3 = s1;
+	string s4("value");//常量串直接初始化；
+	string s5(10, 'a');//10个连续的字符a组成的串；
+
+/********string操作***********/
+//	os << s1;			//输出字符串到流os
+//	is >> s1;			//从流is输入，跳过头空格，遇到空格结束
+//	getline(is, s);	//从流is中读出一行，赋值给s
+	s1.empty();		//字符串为空则返回true,否则false;
+	s1.size();			//返回s的字符个数
+//	s1[n];				//返回s中的第n个字符，下标从0开始；
+	s1 + s2;			//两个字符串连接
+							//其中一个必须为字符串变量（不能两个都是常量）
+//	!= , == ， <= , >= , <, >等逻辑关系判断
+
+/********string中字符操作***********/
+	string str{ "Listen to Dannywsh6 carefully !!!" };
+	for (auto i : str) {
+
+	}
+
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
