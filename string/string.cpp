@@ -28,10 +28,25 @@ int main()
 
 /********string中字符操作***********/
 	string str{ "Listen to Dannywsh6 carefully !!!" };
-	for (auto i : str) {
+	string str_lower, str_upper;
+	char ch{ 'a' };
 
+	for (auto i : str) {
+		str_lower += tolower(i);		//转大写
+		str_upper += toupper(i);	//转小写
 	}
 
+	isdigit(ch);			//c是数字
+	isalpha(ch);		//c是字母
+	islower(ch);		//c是小写字母
+	isupper(ch);		//c是大写字母
+	isalnum(ch);		//c是字母或数字
+	iscntrl(ch);			//c是控制字符
+	isgraph(ch);		//c不是空格可打印
+	isprint(ch);		//c可打印（c为空格或有可视形式）
+	ispunct(ch);		//c是标点符号（不是控制字符、数字、字母、可打印空白）
+	isspace(ch);		//c是空白（空格、横向制表符、纵向制表符、回车、换行、进纸符）
+	isxdigit(ch);		//c是十六进制数字
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
