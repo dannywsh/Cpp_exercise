@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello", "hello\hello.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string", "string\string.vcxproj", "{2C4272C6-2D0B-4316-A052-ACC279D4FFFE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enum", "enum\enum.vcxproj", "{14C4D82A-7A91-43DC-B529-532A3729101B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{2C4272C6-2D0B-4316-A052-ACC279D4FFFE}.Release|x64.Build.0 = Release|x64
 		{2C4272C6-2D0B-4316-A052-ACC279D4FFFE}.Release|x86.ActiveCfg = Release|Win32
 		{2C4272C6-2D0B-4316-A052-ACC279D4FFFE}.Release|x86.Build.0 = Release|Win32
+		{14C4D82A-7A91-43DC-B529-532A3729101B}.Debug|x64.ActiveCfg = Debug|x64
+		{14C4D82A-7A91-43DC-B529-532A3729101B}.Debug|x64.Build.0 = Debug|x64
+		{14C4D82A-7A91-43DC-B529-532A3729101B}.Debug|x86.ActiveCfg = Debug|Win32
+		{14C4D82A-7A91-43DC-B529-532A3729101B}.Debug|x86.Build.0 = Debug|Win32
+		{14C4D82A-7A91-43DC-B529-532A3729101B}.Release|x64.ActiveCfg = Release|x64
+		{14C4D82A-7A91-43DC-B529-532A3729101B}.Release|x64.Build.0 = Release|x64
+		{14C4D82A-7A91-43DC-B529-532A3729101B}.Release|x86.ActiveCfg = Release|Win32
+		{14C4D82A-7A91-43DC-B529-532A3729101B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
